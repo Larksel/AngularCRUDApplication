@@ -1,18 +1,12 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-
 import { NgForm } from '@angular/forms';
-
 import { Router } from '@angular/router';
-
 import { ToastrService } from 'ngx-toastr';
-
 import { HttpProviderService } from '../services/http-provider.service';
 
 @Component({
   selector: 'app-add-employee',
-
   templateUrl: './add-employee.component.html',
-
   styleUrls: ['./add-employee.component.scss'],
 })
 export class AddEmployeeComponent implements OnInit {
