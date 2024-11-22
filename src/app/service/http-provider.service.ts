@@ -2,9 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { WebApiService } from './web-api.service';
 
-//var apiUrl = "https://localhost:44370/";
-
-var apiUrl = "http://192.168.10.10:105";
+var apiUrl = "https://localhost:44370/";
 
 var httpLink = {
   getAllEmployee: apiUrl + "/api/employee/getAllEmployee",
